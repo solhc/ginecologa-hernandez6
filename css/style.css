@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/*encabezado*/
+
+
+.bg-encabezado{
+    background-color: #B23A48;
+}
+.logo{
+    padding-left: 5px 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+}
+.imagen-baner{
+    width: 100%;
+    height: 300px;
+}
+.titulo {
+    text-align: center;
+    color: #8A084B;
+}
+.descripcion{
+    text-align: justify;
+    color: #8A084B;
+    padding: 30px;   
+}
+
+body{
+    color: #8A084B;
+}
+h2{
+    text-align: center;
+    background-color: #F5B7B1 ;
+}
+h3{
+    text-align: center;
+   
+}
+
+/*Curriculum*/
+.doctora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.texto-curri{
+    text-align: justify;
+    padding: 20px;
+}
+
+/* Servcios*/
+.texto-servicios{
+    text-align: center;
+}
+
+
+/*citas*/
+.citas{
+    text-align: center;
+}
+
+/*formulario de citas*/
+.contacto-citas {
+    color: #36A0FF;
+    
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+
+}
+.formulario{
+    margin-bottom: 20px;
+}
+
+
+
+/* pie de pagina*/
+
+footer {
+    grid-column: 1/-1;
+    background-color: #B23A48;
+    color: #ffffff;
+}
+footer{
+    text-align: center;
+}
+footer nav ul li a {  
+    font-family: 'roboto-regular'; 
+    color: cornsilk;   
+}
+.contacto{
+    padding-top: 10px;
+}
+.nav-footer{
+    display: inline-block;
+    float: none;   
+}
+
+nav ul li{
+    display: inline-block;
+    overflow: hidden;
+}
+.iconos{
+    height: 35px;
+    width: 45px;
+}
+.copy{
+    padding-bottom: 10px;
+}
